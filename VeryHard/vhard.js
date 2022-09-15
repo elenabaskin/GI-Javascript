@@ -11,21 +11,25 @@ switch (operator) {
     result = x + y;
     console.log(`${x} + ${y} = ${result}`);
     alert(`ଘ(੭ˊᵕˋ)੭: [${x} + ${y} = ${result}]  ♡* ੈ✩‧`);
+    break;
 
   case "-":
     result = x - y;
     console.log(`${x} - ${y} = ${result}`);
     alert(`ଘ(੭ˊᵕˋ)੭: [${x} - ${y} = ${result}]  ♡* ੈ✩‧`);
+    break;
 
   case "*":
     result = x * y;
     console.log(`${x} * ${y} = ${result}`);
     alert(`ଘ(੭ˊᵕˋ)੭: [${x} * ${y} = ${result}]  ♡* ੈ✩‧`);
+    break;
 
   case "/":
     result = x / y;
     console.log(`${x} / ${y} = ${result}`);
     alert(`ଘ(੭ˊᵕˋ)੭: [${x} / ${y} = ${result}]  ♡* ੈ✩‧`);
+    break;
 
   default:
     console.log("The user isn't following directions (｡•́︿•̀｡)");
