@@ -1,14 +1,23 @@
-let x = 13;
-let y = 12;
+function addition(x, y) {
+  let result = x + y;
+  return result;
+}
+console.log(addition(12, 13));
 
-let add = x + y;
-console.log(add);
+function subtraction(x, y) {
+  let result = x - y;
+  return result;
+}
+console.log(subtraction(12, 13));
 
-let subtract = x - y;
-console.log(subtract);
+function multiplication(x, y) {
+  let result = x * y;
+  return result;
+}
+console.log(multiplication(12, 13));
 
-let multiply = x * y;
-console.log(multiply);
-
-let divide = x / y;
-console.log(divide);
+function division(x, y) {
+  let result = x / y;
+  return result;
+}
+console.log(division(12, 13));
